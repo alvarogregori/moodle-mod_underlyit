@@ -23,7 +23,7 @@ namespace mod_underlyit\event;
  * @copyright  2026 Álvaro Gregori <50322409+alvarogregori@users.noreply.github.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class activity_viewed extends \core\event\course_module_viewed {
+class course_module_viewed extends \core\event\course_module_viewed {
     /**
      * Initialises the event data.
      *
@@ -40,7 +40,7 @@ class activity_viewed extends \core\event\course_module_viewed {
      * @return string
      */
     public static function get_name() {
-        return get_string('eventactivityviewed', 'underlyit');
+        return get_string('eventcoursemoduleviewed', 'underlyit');
     }
 
     /**

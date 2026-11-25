@@ -1,3 +1,8 @@
+## 0.17.2
+
+- The GitHub repository is now `moodle-mod_underlyit`, as the Plugins directory recommends.
+- Renamed the activity view event to `\mod_underlyit\event\course_module_viewed`, the class name the Plugins directory requires. New tests cover both view events.
+
 ## 0.17.1
 
 - Fixed the highlighting report printing part of its template documentation: the example context closed the Mustache comment early. A new test renders every template with its example context.

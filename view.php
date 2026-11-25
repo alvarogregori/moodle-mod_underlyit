@@ -52,7 +52,7 @@ $PAGE->requires->js_call_amd('mod_underlyit/app', 'init', [[
     'showreference' => $showreference,
     'pdfworkerurl' => (new moodle_url('/mod/underlyit/thirdparty/pdfjs/pdf.worker.min.js'))->out(false),
 ]]);
-\mod_underlyit\event\activity_viewed::create(['objectid' => $activity->id, 'context' => $context])->trigger();
+\mod_underlyit\event\course_module_viewed::create(['objectid' => $activity->id, 'context' => $context])->trigger();
 
 $colors = [];
 $palette = ['yellow' => '#fff176', 'blue' => '#90caf9', 'green' => '#a5d6a7', 'pink' => '#f8bbd0', 'orange' => '#ffcc80'];
