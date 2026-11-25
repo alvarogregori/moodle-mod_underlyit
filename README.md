@@ -46,6 +46,6 @@ Underly.it bundles PDF.js 3.11.174 and JSZip 3.10.1. Their licenses, exact upstr
 
 ## Source, issues and documentation
 
-- Source: https://github.com/alvarogregori/moodle-mod-underlyit
-- Issues: https://github.com/alvarogregori/moodle-mod-underlyit/issues
+- Source: https://github.com/alvarogregori/moodle-mod_underlyit
+- Issues: https://github.com/alvarogregori/moodle-mod_underlyit/issues
 - Architecture: `docs/ARCHITECTURE.md`
